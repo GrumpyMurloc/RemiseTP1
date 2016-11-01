@@ -1,3 +1,4 @@
+<span style="text-align: justify">
 # **Analyse GitHub**
 
 
@@ -61,3 +62,4 @@ Il pleut tout le temps. Il y a eu un push ajoutant une commande fournissant à l
 ###### **Configuration Slack**	
 	renommer le fichier .env.default pour .env
 	obtenir un [token](https://slack.com/signin?redir=%2Fservices%2Fnew%2Fbot) slack
+</span>
