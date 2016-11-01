@@ -34,7 +34,7 @@ Il pleut tout le temps. Il y a eu un push ajoutant une commande fournissant à l
 	sudo apt-get update
 	sudo apt-get install php7.0 php7.0-fpm php7.0-mysql -y
 	
-##### **Installation de composer**
+###### **Installation de composer**
 [Composer](https://github.com/composer/composer)  est un programme qui aide au niveau de l'installation, la gestion et la déclaration de dépendance pour les 	projet PHP. 
 
 	//Télécharge l'installer dans le répertoire courant
@@ -46,10 +46,10 @@ Il pleut tout le temps. Il y a eu un push ajoutant une commande fournissant à l
 	// Retirer l'installer
 	sudo php -r "unlink('composer-setup.php');"
 
-##### **Installation de slack**
+###### **Installation de slack**
 	https://slack.com/downloads/linux
 
-##### **Installation du programme**
+###### **Installation du programme**
 
 	// Il est à noté que le programme pouvait être installé de deux façon.
 	// Le programme Slack doit être installé 
@@ -58,6 +58,6 @@ Il pleut tout le temps. Il y a eu un push ajoutant une commande fournissant à l
 	cd slackwolf
 	composer install
 
-##### **Configuration Slack**	
+###### **Configuration Slack**	
 	renommer le fichier .env.default pour .env
 	obtenir un [token](https://slack.com/signin?redir=%2Fservices%2Fnew%2Fbot) slack
