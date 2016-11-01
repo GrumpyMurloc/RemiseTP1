@@ -20,19 +20,19 @@ Utilisation de VMware Workstation pour créer un machine virtuelle Ubuntu
 > Status: Testing
 
 
-#### **Problème: **
+#### **Problème:**
 Il pleut tout le temps. Il y a eu un push ajoutant une commande fournissant à l'utilisateur une fonction lui permettant d'obtenir la température du jour. Cependant cette commande transmet seulement la même température. Pour obtenir l'information durant la partie, l'utilisateur reçoit une description du jour (GameControler (ligne 479, 497, 517)). Cette description n'utilise pas la commande *!weather*, mais elle retourne simplement un texte qui a été modifié par le créateur de la commande. Donc, le problème est que l'utilisateur reçoit toujours la même température peut importe le jour. Pour règler ce problème, j'ai créer une nouvelle classe static *WeatherFormatter* qui retourne un *String* selon l'état et la température contennu dans la partie. Pour obtenir la température, une fonction *setWeather* sera appellé au début de chaque journé. Cette fonction retournera un nombre aléatoire entre 1 et 3 inclusivement et ceci permettera de déterminer la température.Cette chaine pourra être intégré au message se retrouvant dans le game controleur.  
 
 
 #### **Préparation de l'environement:**
-###### **Installation de PHP7**
+##### **Installation de PHP7**
 
 	sudo apt-get install python-software-properties software-properties-common
 	sudo LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php
 	sudo apt-get update
 	sudo apt-get install php7.0 php7.0-fpm php7.0-mysql -y
 	
-###### **Installation de composer**
+##### **Installation de composer**
 [Composer](https://github.com/composer/composer)  est un programme qui aide au niveau de l'installation, la gestion et la déclaration de dépendance pour les 	projet PHP. 
 
 	//Télécharge l'installer dans le répertoire courant
@@ -44,10 +44,10 @@ Il pleut tout le temps. Il y a eu un push ajoutant une commande fournissant à l
 	// Retirer l'installer
 	sudo php -r "unlink('composer-setup.php');"
 
-###### **Installation de slack**
+##### **Installation de slack**
 	https://slack.com/downloads/linux
 
-###### **Installation du programme**
+##### **Installation du programme**
 
 	// Il est à noté que le programme pouvait être installé de deux façon.
 	// Le programme Slack doit être installé 
