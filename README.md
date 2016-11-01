@@ -27,7 +27,7 @@ Il pleut tout le temps. Il y a eu un push ajoutant une commande fournissant à l
 
 
 #### **Préparation de l'environement:**
-##### **Installation de PHP7**
+###### **Installation de PHP7**
 
 	sudo apt-get install python-software-properties software-properties-common
 	sudo LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php
