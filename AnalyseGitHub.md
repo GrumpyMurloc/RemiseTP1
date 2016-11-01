@@ -16,7 +16,9 @@ Utilisation de VMware Workstation pour créer un machine virtuelle Ubuntu
 *SlackWorlf* est un bot pour *Slack* permettant aux utilisateurs de participer à une partie de loup-garou (mafia). Le projet est écrit en PHP. Il ne semble pas y avoir de convention on d'instruction provenant du gestionnaire de projet. Cependant, le projet est répartit en différents dossiers, séparant les différentes classes selon leur type par exemple: le dossier formatter contient la classe *formatter* ainsi que tous les classes dérivées. 
 
 > Repository: https://github.com/chrisgillis/slackwolf
+
 > Issue: https://github.com/chrisgillis/slackwolf/issues/51
+
 > Status: Testing
 
 
