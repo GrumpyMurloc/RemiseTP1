@@ -72,8 +72,8 @@ Pour tester les modifications, j'ai créé un groupe de conversation sur *slack*
 	git add "src/Game/Command/WeatherCommand.php"
 	git add "src/Game/GameManager.php"
 	git add "src/Game/Game.php"
-	git status
 	
+	git status
 	//Your branch is up-to-date with 'origin/master'.
 	//Changes to be committed:
   	//(use "git reset HEAD <file>..." to unstage)
@@ -81,6 +81,8 @@ Pour tester les modifications, j'ai créé un groupe de conversation sur *slack*
 	//new file:   src/Game/Formatter/WeatherFormatter.php
 	//modified:   src/Game/Game.php
 	//modified:   src/Game/GameManager.php
+	
+	// Creating commit and push to GrumpyMurloc/slackwolf
 	git commit -s -m "Adding sytem weather effect (#51)"
 	git push
 	//Username for 'https://github.com': GrumpyMurloc
@@ -92,6 +94,7 @@ Pour tester les modifications, j'ai créé un groupe de conversation sur *slack*
 	//remote: Resolving deltas: 100% (7/7), completed with 7 local objects.
 	//To https://github.com/GrumpyMurloc/slackwolf.git
    	//ff40ed6..ff697ef  master -> master
+	
 #### **Pull Request**
 Pull request depuis gitHub	
 
