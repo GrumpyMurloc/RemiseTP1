@@ -1,4 +1,4 @@
-<span style="text-align: justify">
+
 # **Analyse GitHub**
 
 
@@ -99,3 +99,4 @@ Pour tester les modifications, j'ai créé un groupe de conversation sur *slack*
 Pull request depuis gitHub	
 
 
+#### **Commentaire**
