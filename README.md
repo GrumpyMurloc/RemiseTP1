@@ -103,4 +103,9 @@ Pull request depuis gitHub
 ![alt text](https://github.com/GrumpyMurloc/RemiseTP1/blob/master/images/WeatherFormatter1.png)
 ![alt text](https://github.com/GrumpyMurloc/RemiseTP1/blob/master/images/Pull%20Request.png)
 
-#### **Commentaire**
+#### **Commentaire/Problème**
+J'avais cloné le repository principal au lieu de copier mon *fork* cela à fait en sorte que lorsque je tentais de push les modifications, une erreur me refusant l'accès à cause des permissions me bloquais. Pour résoudre ce problème, j'ai du set l'origin.Ce qui ma permis de push les modifications dans mon propre dossier et ensuite me permettre d'effectuer mon pull request.
+	
+	git remote add origin "https://github.com/GrumpyMurloc/slackwolf.git"
+
+
