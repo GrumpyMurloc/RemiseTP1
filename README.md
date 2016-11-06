@@ -67,4 +67,32 @@ Il pleut tout le temps. Il y a eu un push ajoutant une commande fournissant à l
 Pour tester les modifications, j'ai créé un groupe de conversation sur *slack* et ajouter 3 utilisateur (Le jeu demande un minimum de 3 utilisateurs) j'ai démarré la partie et vérifier que le client recevait les messages. Si le client ne recevait aucun message j'allais sur le log de *Apache* ce log m'a permis de corriger les erreurs de syntax présente dan la partie modifier.
 
 #### **Plan de développement**
+	// Ajouter les changements au commit 
+	git add "src/Game/Formatter/WeatherFormatter.php"
+	git add "src/Game/Command/WeatherCommand.php"
+	git add "src/Game/GameManager.php"
+	git add "src/Game/Game.php"
+	git status
+	
+	//Your branch is up-to-date with 'origin/master'.
+	//Changes to be committed:
+  	//(use "git reset HEAD <file>..." to unstage)
+	//modified:   src/Game/Command/WeatherCommand.php
+	//new file:   src/Game/Formatter/WeatherFormatter.php
+	//modified:   src/Game/Game.php
+	//modified:   src/Game/GameManager.php
+	git commit -s -m "Adding sytem weather effect (#51)"
+	git push
+	//Username for 'https://github.com': GrumpyMurloc
+	//Password for 'https://GrumpyMurloc@github.com': 
+	//Counting objects: 10, done.
+	//Compressing objects: 100% (10/10), done.
+	//Writing objects: 100% (10/10), 2.30 KiB | 0 bytes/s, done.
+	//Total 10 (delta 7), reused 0 (delta 0)
+	//remote: Resolving deltas: 100% (7/7), completed with 7 local objects.
+	//To https://github.com/GrumpyMurloc/slackwolf.git
+   	//ff40ed6..ff697ef  master -> master
+#### **Pull Request**
+Pull request depuis gitHub	
+
 
