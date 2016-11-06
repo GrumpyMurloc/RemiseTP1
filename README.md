@@ -62,4 +62,9 @@ Il pleut tout le temps. Il y a eu un push ajoutant une commande fournissant à l
 ###### **Configuration Slack**	
 	renommer le fichier .env.default pour .env
 	obtenir un [token](https://slack.com/signin?redir=%2Fservices%2Fnew%2Fbot) slack
-</span>
+
+#### **Test**
+Pour tester les modifications, j'ai créé un groupe de conversation sur *slack* et ajouter 3 utilisateur (Le jeu demande un minimum de 3 utilisateurs) j'ai démarré la partie et vérifier que le client recevait les messages. Si le client ne recevait aucun message j'allais sur le log de *Apache* ce log m'a permis de corriger les erreurs de syntax présente dan la partie modifier.
+
+#### **Plan de développement**
+
