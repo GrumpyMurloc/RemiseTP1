@@ -94,9 +94,13 @@ Pour tester les modifications, j'ai créé un groupe de conversation sur *slack*
 	//remote: Resolving deltas: 100% (7/7), completed with 7 local objects.
 	//To https://github.com/GrumpyMurloc/slackwolf.git
    	//ff40ed6..ff697ef  master -> master
-	
+
+
 #### **Pull Request**
 Pull request depuis gitHub	
-
+![alt text](https://github.com/GrumpyMurloc/RemiseTP1/blob/master/images/Communication.png)
+![alt text](https://github.com/GrumpyMurloc/RemiseTP1/blob/master/images/WeatherCommand.png)
+![alt text](https://github.com/GrumpyMurloc/RemiseTP1/blob/master/images/WeatherFormatter1.png)
+![alt text](https://github.com/GrumpyMurloc/RemiseTP1/blob/master/images/Pull%20Request.png)
 
 #### **Commentaire**
