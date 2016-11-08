@@ -108,4 +108,8 @@ J'avais cloné le repository principal au lieu de copier mon *fork* cela à fait
 	
 	git remote add origin "https://github.com/GrumpyMurloc/slackwolf.git"
 
+J'ai reçu un premier feedback. 
+	
+	Could you clean this code up a bit first? Spaces between equals and before/after conditionals, just so we can keep the 		code semi-consistent.
 
+À la demande, j'ai apporté les changements demandés et effectué un autre push.
